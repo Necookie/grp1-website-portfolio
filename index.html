@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/icon/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Group Portfolio</title>
+  </head>
+  <body>
+    <div id="preloader">
+      <img src="/loader.gif" alt="preloader icon">
+    </div>
+
+    <div id="app">
+      <h1 style="font-family: Poppins; font-weight: 500;">Group 1 | Group Portfolio will rise here</h1>
+      <div class="members-list">
+        <ul>
+          <li class="member-list-items">Dheyn</li>
+          <li class="member-list-items">Ella</li>
+          <li class="member-list-items">Francis</li>
+          <li class="member-list-items">Jaypee</li>
+          <li class="member-list-items">Marc Justin</li>
+          <li class="member-list-items">Matthew</li>
+        </ul>
+      </div>
+    </div>
+    <script>
+      const preloader = document.getElementById("preloader");
+      window.addEventListener("load", () => {
+        preloader.style.display = "none"; 
+      })
+    </script>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
